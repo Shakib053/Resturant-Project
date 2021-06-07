@@ -48,6 +48,29 @@ li{
       font-size: 1.5rem;
     
     }
+    #clock span{
+        display:inline-block;
+        width: 60px;
+        height: 40px;
+        background-color:#E9967A;
+        box-shadow: 0 5px 15px red;
+        margin: 0 1px;
+        line-height: 40px;
+    }
+    #clock span:last-child{
+        background-color: #4B0082;
+        color: white;
+    }
+    #clock span:first-child{
+        margin-left: 0px;
+    }
+    #greet{
+        background-color: wheat;
+        display: inline-block;
+        border-radius: 4px;
+        box-shadow: 0 5px 15px #bebebe;
+      animation: greet 2s ease infinite 1s ;
+    }
     .banner p{
         color: white;
         text-align: center;
@@ -127,6 +150,29 @@ li{
     margin-bottom: 10px;
     color: black;
 
+}
+#clock span{
+      display:inline-block;
+      width: 60px;
+      height: 40px;
+      background-color: #E9967A;
+      box-shadow: 0 5px 15px blue;
+      margin: 0 1px;
+      line-height: 40px;
+  }
+#clock span:last-child{
+    background-color: #4B0082;
+    color: white;
+}
+#clock span:first-child{
+    margin-left: 0px;
+}
+#greet{
+    background-color: wheat;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px #bebebe;
+  
 }
 .somoy h2
 {
