@@ -23,8 +23,8 @@ function clock(){
     showtime=hours-12;
     else
     showtime=hours;
-    document.getElementById("clock").innerHTML=showtime +" : "
-    + min +" : " + sec+" "+ midday;
+    document.getElementById("clock").innerHTML= "<span>" +showtime + "</span>" +" : "+ "<span>"
+    + min +"</span>"+ " : " +"<span>" +sec+"</span>"+" "+"<span>"+midday+"</span>";
     
     document.getElementById("tmb").innerHTML=taric+" / "+mash+" / "+bochor;
 
