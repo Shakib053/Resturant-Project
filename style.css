@@ -6,6 +6,9 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
+li{
+    list-style: none;
+}
 .container{
     /* margin: auto; */
     max-width: auto;
@@ -35,7 +38,24 @@ html{
 }
 
 /* for small devices */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
+   
+    .somoy{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: black;
+      font-size: 1.5rem;
+    
+    }
+    .banner p{
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: 'Pacifico', cursive;
+    }
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -92,6 +112,30 @@ html{
    position: relative;
    height: 100vh;
     }
+.banner p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+}
+.somoy{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+.somoy h2
+{
+    font-size: 2rem;
+}
+.somoy h3
+{
+    font-size: 2rem;
+}
 .banner-content{
     position: absolute;
     transform: translate(-50%,-50%);
@@ -111,8 +155,9 @@ footer p{
     text-align: left;
     font-weight: 900;
 }
-footer .social-menus{
+.social-menus ul li{
     text-align: right;
+    /* margin-bottom: 200px; */
 }
     .col-l-1 {width: 8.33%;}
     .col-l-2 {width: 16.66%;}
@@ -299,10 +344,13 @@ text-align: center;
 footer p{
     font-size: 1.1rem;
     line-height: 32px;
+    text-align: center;
 }
 
 .social-menus{
     text-align: center;
+    font-size: 1.1rem;
+
 }
 .icon-style{
     padding:5px;
