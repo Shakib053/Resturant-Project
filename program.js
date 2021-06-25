@@ -34,7 +34,7 @@ function clock(){
     },1000);
     
    if(hours<12)
-   var greeting="Goor Morning";
+   var greeting="Good Morning";
    else if(hours>=12 && hours<=18)
    var greeting="Good Afternoon";
    else if(hours>18 && hours<=20)
